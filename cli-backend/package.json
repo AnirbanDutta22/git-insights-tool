@@ -1,0 +1,45 @@
+{
+  "name": "git-insights-tool",
+  "version": "1.0.2",
+  "description": "A local developer tool to visualize and predict git conflicts.",
+  "main": "./dist/index.js",
+  "bin": {
+    "git-insights-tool": "./cli.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "tsx ./src/index.ts",
+    "build": "tsc"
+  },
+  "files": [
+    "dist",
+    "public",
+    "cli.js"
+  ],
+  "keywords": [
+    "git",
+    "git-tool",
+    "git-visualizer",
+    "merge-conflict",
+    "conflict-predictor",
+    "cli",
+    "developer-tools",
+    "git-graph",
+    "react-flow",
+    "workflow-automation"
+  ],
+  "author": "Anirban Dutta",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "@types/express": "^5.0.6",
+    "@types/node": "^25.9.3",
+    "express": "^5.2.1",
+    "simple-git": "^3.36.0",
+    "tsx": "^4.22.4",
+    "typescript": "^6.0.3"
+  },
+  "devDependencies": {
+    "cpx": "^1.5.0"
+  }
+}
