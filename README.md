@@ -23,15 +23,15 @@ GitInsights bridges the gap between complex terminal branch histories and clean 
 └── frontend/             # React & Tailwind UI (React Flow Canvas)
 ```
 
-# Local Development & Contribution Setup
+## Local Development & Contribution Setup
 If you want to contribute to the engine or run the project locally from the source files, follow these steps:
 
-# 1. Clone the Repository
+## 1. Clone the Repository
 Bash
 git clone [https://github.com/AnirbanDutta22/git-insights-tool.git](https://github.com/AnirbanDutta22/git-insights-tool.git)
 cd git-insights-tool
 
-# 2. Set Up the Frontend UI
+## 2. Set Up the Frontend UI
 Navigate to the frontend directory, install dependencies, and build the distribution assets:
 
 Bash
@@ -40,7 +40,7 @@ npm install
 npm run build
 Note: Make sure to move or copy the resulting dist/ production bundle into your backend/dist/ subfolder so the backend server can host it.
 
-# 3. Set Up the Backend Engine
+## 3. Set Up the Backend Engine
 Navigate to the backend, install dependencies, compile the TypeScript layers, and link it locally:
 
 Bash
@@ -49,7 +49,7 @@ npm install
 npm run build
 npm link
 
-# 4. Run in Development Mode
+## 4. Run in Development Mode
 You can start the backend engine in live-reloading mode within any test git repository:
 
 Bash
