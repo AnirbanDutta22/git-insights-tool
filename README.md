@@ -27,33 +27,37 @@ GitInsights bridges the gap between complex terminal branch histories and clean 
 If you want to contribute to the engine or run the project locally from the source files, follow these steps:
 
 ## 1. Clone the Repository
-Bash
-git clone [https://github.com/AnirbanDutta22/git-insights-tool.git](https://github.com/AnirbanDutta22/git-insights-tool.git)
+```bash
+git clone https://github.com/AnirbanDutta22/git-insights-tool.git
 cd git-insights-tool
+```
 
 ## 2. Set Up the Frontend UI
 Navigate to the frontend directory, install dependencies, and build the distribution assets:
 
-Bash
+```bash
 cd frontend
 npm install
 npm run build
+```
 Note: Make sure to move or copy the resulting dist/ production bundle into your backend/dist/ subfolder so the backend server can host it.
 
 ## 3. Set Up the Backend Engine
 Navigate to the backend, install dependencies, compile the TypeScript layers, and link it locally:
 
-Bash
+```bash
 cd ../backend
 npm install
 npm run build
 npm link
+```
 
 ## 4. Run in Development Mode
 You can start the backend engine in live-reloading mode within any test git repository:
 
-Bash
+```bash
 npm run dev
+```
 Contributing
 We welcome community optimization! If you have ideas for advanced graph rendering layouts or deeper git plumbing integration:
 
